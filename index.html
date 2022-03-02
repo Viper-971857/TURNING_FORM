@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--======================= STYLES-SHEET ==========================-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Form</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+
+		<div class="card">
+
+			<div class="box" id="card">
+
+
+
+				<div class="card-front">
+
+					<h2 class="heading">login</h2>
+
+					<form>
+
+						<input class="input" type="email" placeholder="enter your email id" required>
+
+						<input class="input" type="password" placeholder="password" required>
+
+						<button class="submit-btn" type="submit">submit</button><br>
+
+						<input type="checkbox"><span>remember me</span>
+						
+					</form>
+
+					<button type="button" class="btn" onclick="openRegister()">i am new here</button>
+
+					<a class="anker" href="#" target="-top">forgot password</a>
+					
+				</div>
+
+
+
+				<div class="card-back">
+					
+					<h2 class="heading">register</h2>
+
+					<form>
+
+						<input class="input" type="text" placeholder="your name" required>
+
+						<input class="input" type="email" placeholder="enter your email id" required>
+
+						<input class="input" type="password" placeholder="password" required>
+
+						<button class="submit-btn" type="submit">submit</button><br>
+
+						<input type="checkbox"><span>remember me</span>
+						
+					</form>
+
+					<button type="button" class="btn" onclick="openLogin()">i have an account</button>
+
+					<a class="anker" href="#" target="-blank">forgot password</a>
+
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+    <!--============================== ADDING-JAVASCRIPT-FILE ==========================-->
+    <script src="./assets/js/main.js"></script>
+    
+</body>
+</html>
